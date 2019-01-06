@@ -7,7 +7,12 @@ function setup() {
   plane=loadImage('2.png');
 
 }
-
+function keyPressed() {
+  if (keyCode === 32  ) {
+    y = y - 30;
+  }
+    
+}
 function draw() { 
   background(171,231,255);   // Set the background to black 
  
